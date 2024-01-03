@@ -95,11 +95,18 @@ a:hover, i:hover, span[class~="nav-tekst"]:hover {
 
 /* OSTALO */
 
+
 .hr-custom {
   width: 5.625em;
   background-color: #FFAF38;
   height: 0.1875em;
 }
+
+#map {
+  height: 450px;
+  filter: grayscale(100%);
+}
+
 
 /* DUGME KA GORE */
 
