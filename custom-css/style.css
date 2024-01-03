@@ -1,0 +1,124 @@
+/* OSNOVNI ELEMENTI */
+
+* {
+  font-family: 'Barlow', sans-serif;
+}
+
+*::selection {
+  background-color: #E7E7E7;
+}
+
+body {
+  background-color: #FCF7DB !important;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
+img[src="img/tehnoprodaja_logo.svg"] {
+  width: 300px; /* ŠIRINA LOGO TEHNOPRODAJE U NAVIGACIJI */
+}
+
+nav {
+  padding-bottom: 1.25em !important;
+  padding-top: 1.25em !important;
+}
+
+p, span, a, i, h1, h2, h3, h4, h5, h6 {
+  color: #256EFF !important;
+  transition: color 0.2s ease-in-out !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover, i:hover, span[class~="nav-tekst"]:hover {
+  color: #78A5FF !important;
+}
+
+
+/* KLASE ZA BOJE */
+
+
+.nav-pozadina, .dropdown-item:hover, footer {
+  background-color: #F8EEAF !important;
+}
+
+.tekst-zuta, h1[class~="tekst-zuta"]:hover {
+  color: #EEA12E !important;
+}
+
+.tekst-zuta:hover {
+  color: #FCBB59 !important;
+}
+
+.okvir-plava {
+  border: 0.125em solid #256EFF; /* OKVIR ZA SLIKE AKCIJA */
+  box-shadow: 0 0 0.5em #78A5FF;
+}
+
+.okvir-plava-bela {
+  border: 0.0625em solid #256EFF;
+  border-radius: 0.25em;
+  background-color: white;
+  padding: 1.1em;
+}
+
+.linija-plava {
+  border-bottom: 0.125em solid #256EFF;
+  margin-bottom: 2.1875em;
+}
+
+.dugme-pozadina-zuta {
+  background-color: #f8eeaf !important;
+  border: 0.0625em solid #256EFF !important;
+  margin-bottom: 1.875em;
+}
+
+.card {
+  border: 0.0625em solid #256EFF !important;
+}
+
+
+/* KLASE ZA TEKST */
+
+
+.nav-tekst {
+  font-size: 1.125rem !important;
+  font-weight: bold !important;
+  margin-right: 1.25em;
+}
+
+
+/* OSTALO */
+
+.hr-custom {
+  width: 5.625em;
+  background-color: #FFAF38;
+  height: 0.1875em;
+}
+
+/* DUGME KA GORE */
+
+
+#btn-kagore {
+  color: #FFA625 !important;
+  border-color: #FFA625 !important;
+  padding: 0.625em !important;
+  display: none;
+  position: fixed;
+  bottom: 1.875em;
+  right: 1.875em;
+  box-shadow: 0.1875em 0.1875em 0.0625em #FFA625;
+}
+
+#btn-kagore i {
+  color: #FFA625 !important;
+}
+
+#btn-kagore:hover, #btn-kagore:active, #btn-kagore:focus {
+  background-color: transparent !important;
+}
