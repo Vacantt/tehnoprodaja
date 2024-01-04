@@ -26,7 +26,7 @@ nav {
   padding-top: 1.25em !important;
 }
 
-p, span, a, i, h1, h2, h3, h4, h5, h6 {
+p, span, a, i, h1, h2, h3, h4, h5, h6, label, button, .i-default:hover {
   color: #256EFF !important;
   transition: color 0.2s ease-in-out !important;
 }
@@ -35,7 +35,7 @@ a {
   text-decoration: none !important;
 }
 
-a:hover, i:hover, span[class~="nav-tekst"]:hover {
+a:hover, i:hover, span[class~="nav-tekst"]:hover, button:hover {
   color: #78A5FF !important;
 }
 
@@ -56,8 +56,7 @@ a:hover, i:hover, span[class~="nav-tekst"]:hover {
 }
 
 .okvir-plava {
-  border: 0.125em solid #256EFF; /* OKVIR ZA SLIKE AKCIJA */
-  box-shadow: 0 0 0.5em #78A5FF;
+  border: 0.125em solid #256EFF !important;
 }
 
 .okvir-plava-bela {
@@ -104,7 +103,6 @@ a:hover, i:hover, span[class~="nav-tekst"]:hover {
 
 #map {
   height: 450px;
-  filter: grayscale(100%);
 }
 
 

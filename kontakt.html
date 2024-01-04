@@ -88,7 +88,35 @@
 
   <!-- GLAVNA SEKCIJA STRANE -->
   <main>
-    <div class="container-fluid p-0 m-0" id="map"></div>
+    <!-- MAPA -->
+    <div class="container-fluid p-0 m-0 linija-plava" id="map"></div>
+    <!-- KONTAKT -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="fw-bold p-3 text-center">Povežite se sa nama</h1>
+          <form method="get" action="kontakt.html" class="needs-validation">
+            <div class="mb-3">
+              <label for="emailKontaktForma" class="form-label fw-bold">Adresa e-pošte</label>
+              <input type="email" class="form-control okvir-plava" id="emailKontaktForma" name="email" placeholder="ime@primer.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="inputKontaktForma" class="form-label fw-bold">Vaša poruka</label>
+              <textarea class="form-control okvir-plava" id="inputKontaktForma" name="input_text" rows="5" required></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="btn dugme-pozadina-zuta fw-bold" type="submit">Potvrdi</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <p class="p-3">Tehnoprodaja je uvek na raspolaganju našim kupcima. Ukoliko vam je potrebna pomoć pri odabiru, naš tim stručnjaka je tu da Vam pruži preporuke i pomoć pri odabiru proizvoda koji najbolje odgovaraju Vašim potrebama i zahtevima.</p>
+          <p class="ps-3 pe-3">Ako postoji bilo kakva nedoumica ili pitanje u vezi sa našim proizvodima, uslugama ili kupovinom, naša podrška je spremna da pruži odgovore i reši sve nedoumice. Kontaktiranje takođe omogućava Vama pristup informacijama o aktuelnim ponudama, popustima i posebnim akcijama.</p>
+          <span class="ps-3 pe-3 fw-bold"><i class="fa-solid fa-location-pin i-default"></i> Sedište:</span><span>Julija Gagarina 31, Novi Beograd 11000</span>
+          <p class="ps-3 pe-3 fw-bold">E-pošta:</p>
+        </div>
+      </div>
+    </div>
   </main>
 
   <button type="button" class="btn btn-outline-primary btn-floating" id="btn-kagore"><i class="fa-solid fa-angles-up fa-2xl"></i></button>
