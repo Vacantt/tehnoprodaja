@@ -89,7 +89,7 @@
   <!-- GLAVNA SEKCIJA STRANE -->
   <main>
     <!-- MAPA -->
-    <div class="container-fluid p-0 m-0 linija-plava" id="map"></div>
+    <div class="container-fluid p-0 m-0" id="map"></div>
     <!-- KONTAKT -->
     <div class="container">
       <div class="row">
@@ -104,20 +104,75 @@
               <label for="inputKontaktForma" class="form-label fw-bold">Vaša poruka</label>
               <textarea class="form-control okvir-plava" id="inputKontaktForma" name="input_text" rows="5" required></textarea>
             </div>
-            <div class="mb-3">
+            <div class="mb-3 text-center">
               <button class="btn dugme-pozadina-zuta fw-bold" type="submit">Potvrdi</button>
             </div>
           </form>
         </div>
         <div class="col-md-6">
-          <p class="p-3">Tehnoprodaja je uvek na raspolaganju našim kupcima. Ukoliko vam je potrebna pomoć pri odabiru, naš tim stručnjaka je tu da Vam pruži preporuke i pomoć pri odabiru proizvoda koji najbolje odgovaraju Vašim potrebama i zahtevima.</p>
+          <p class="p-3">Tehnoprodaja je uvek na raspolaganju našim kupcima. Ukoliko Vam je potrebna pomoć pri odabiru, naš tim stručnjaka je tu da Vam pruži preporuke i pomoć pri odabiru proizvoda koji najbolje odgovaraju Vašim potrebama i zahtevima.</p>
           <p class="ps-3 pe-3">Ako postoji bilo kakva nedoumica ili pitanje u vezi sa našim proizvodima, uslugama ili kupovinom, naša podrška je spremna da pruži odgovore i reši sve nedoumice. Kontaktiranje takođe omogućava Vama pristup informacijama o aktuelnim ponudama, popustima i posebnim akcijama.</p>
-          <span class="ps-3 pe-3 fw-bold"><i class="fa-solid fa-location-pin i-default"></i> Sedište:</span><span>Julija Gagarina 31, Novi Beograd 11000</span>
-          <p class="ps-3 pe-3 fw-bold">E-pošta:</p>
+          <p class="ps-3 pe-3"><i class="fa-solid fa-location-pin i-default"></i><span class="fw-bold"> Sedište:</span> Julija Gagarina 31, Novi Beograd 11000</p>
+          <p class="ps-3 pe-3"><i class="fa-solid fa-clock i-default"></i><span class="fw-bold"> Radno vreme:</span> 09:00-19:00 (Ponedeljak-Petak), 09:00-14:00 (Subota)</p>
+          <p class="ps-3 pe-3"><i class="fa-solid fa-envelope i-default"></i><span class="fw-bold"> E-pošta:</span> <a href="mailto:kontakt@tehnoprodaja.org">kontakt@tehnoprodaja.org</a></p>
+          <p class="ps-3 pe-3"><i class="fa-solid fa-phone i-default"></i><span class="fw-bold"> Call centar:</span> <a href="tel:+381112345678">011 12 34 567</a></p>
         </div>
       </div>
     </div>
   </main>
+
+  <!-- FOOTER -->
+  <div class="container-fluid p-0 m-0">
+    <footer>
+      <div class="container">
+        <section class="d-flex justify-content-between p-4 linija-plava">
+          <div class="me-5">
+            <span class="fw-bold fs-5">Zapratite nas na društvenim mrežama:</span>
+          </div>
+          <div>
+            <a href="https://www.facebook.com" class="me-4">
+              <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com" class="me-4">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" class="me-4">
+              <i class="fa-brands fa-x-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.youtube.com" class="me-4">
+              <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com" class="me-4">
+              <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div class="container text-center text-md-start">
+          <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Tehnoprodaja</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p>Kao kompanija se ističemo po širokim asortimanom tehnoloških proizvoda, pružajući korisnicima kvalitet, stručnost i inovativnost u svetu računarske, gaming, audio-vizuelne i mobilne tehnologije.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Korisni linkovi</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p class="mb-2"><a href="o_nama.html"><i class="fa-solid fa-user"></i> O nama</a></p>
+              <p class="mb-2"><a href="faq.html"><i class="fa-regular fa-circle-question"></i> FAQ</a></p>
+              <p class="mb-2"><a href="mapa.html"><i class="fa-solid fa-map"></i> Mapa</a></p>
+              <p class="mb-2"><a href="cenovnik.pdf" target="_blank"><i class="fa-solid fa-clipboard-list"></i> Cenovnik</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3 fw-bold">
+        <span>&copy; Zaštićeno pod <a href="https://opensource.org/license/mit/">MIT Licensom</a>, 2024: <a href="index.html">Tehnoprodaja</a></span>
+        <p class="mb-0">Autor projekta: <a href="mailto:markorufic2@gmail.com">Marko Rufić</a></p>
+      </div>
+    </footer>
+  </div>
 
   <button type="button" class="btn btn-outline-primary btn-floating" id="btn-kagore"><i class="fa-solid fa-angles-up fa-2xl"></i></button>
   <script src="custom-js/scrollSkrozGore.js"></script>
