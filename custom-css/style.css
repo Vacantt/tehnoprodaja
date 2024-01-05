@@ -26,7 +26,7 @@ nav {
   padding-top: 1.25em !important;
 }
 
-p, span, a, i, h1, h2, h3, h4, h5, h6, label, button, .i-default:hover, .card-header {
+p, span, a, i, h1, h2, h3, h4, h5, h6, label, button, .i-default:hover, .card-header, .accordion-header, .accordion-body {
   color: #256EFF !important;
   transition: color 0.2s ease-in-out !important;
 }
