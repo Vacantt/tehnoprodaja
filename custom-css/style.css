@@ -35,7 +35,7 @@ a {
   text-decoration: none !important;
 }
 
-a:hover, i:hover, span[class~="nav-tekst"]:hover, button:hover {
+a:hover, i:hover, span[class~="nav-tekst"]:hover, button:hover, li span:hover {
   color: #78A5FF !important;
 }
 
