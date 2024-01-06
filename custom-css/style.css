@@ -43,7 +43,7 @@ a:hover, i:hover, span[class~="nav-tekst"]:hover, button:hover, li span:hover {
 /* KLASE ZA BOJE */
 
 
-.nav-pozadina, .dropdown-item:hover, footer {
+.nav-pozadina, .dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus, footer {
   background-color: #F8EEAF !important;
 }
 
