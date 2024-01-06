@@ -127,3 +127,16 @@ a:hover, i:hover, span[class~="nav-tekst"]:hover, button:hover, li span:hover {
 #btn-kagore:hover, #btn-kagore:active, #btn-kagore:focus {
   background-color: transparent !important;
 }
+
+
+/* PRINT OPCIJE */
+
+@media print {
+  header, footer, form, button[class~="dugme-pozadina-zuta"], img[src="img/index/promocija.png"], #btn-kagore, #map {
+    display: none !important;
+  }
+
+  .card {
+    border: 0 !important;
+  }
+}
