@@ -42,6 +42,355 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <!-- NAVIGACIJA -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-nav center nav-pozadina">
+      <div class="container justify-content-center">
+        <a class="navbar-brand" href="index.html"><img src="img/tehnoprodaja_logo.svg" alt="Tehnoprodaja"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+            <g fill="#256eff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"></path></g></g>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <span class="nav-link dropdown-toggle nav-tekst" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                <i class="fa-solid fa-ellipsis-v"></i> Sve kategorije
+              </span>
+              <ul class="dropdown-menu nav-pozadina">
+                <li><a class="dropdown-item nav-tekst" href="racunarske_komponente.html">Računarske komponente</a></li>
+                <li><a class="dropdown-item nav-tekst" href="oprema_za_racunare.html">Oprema za računare</a></li>
+                <li><a class="dropdown-item nav-tekst" href="gaming.html">Gaming</a></li>
+                <li><a class="dropdown-item nav-tekst" href="mobilni.html">Mobilni telefoni</a></li>
+                <li><a class="dropdown-item nav-tekst" href="audio_video.html">TV, audio i video</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst tekst-zuta" href="akcija.html">Akcija!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="o_nama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- GLAVNA SEKCIJA STRANE -->
+  <main>
+    <!-- NASLOV -->
+    <div class="container">
+      <h1 class="fw-bold text-center mt-3">Računarske komponente</h1>
+      <p class="text-center fs-5 okvir-plava-bela">Ova stranica obuhvata sve računarske komponente koje možete naći u Tehnoprodaja prodavnici, uključujući procesore, grafičke kartice, matične ploče i memorijske module. Nudimo detaljne opise proizvoda, kompatibilnost sa različitim sistemima, kao i korisničke recenzije koje pomažu kupcima da donesu informisane odluke pri kupovini računarskih delova.</p>
+    </div>
+
+    <!-- PROCESORI -->
+    <div class="container">
+      <h2 class="fw-bold mb-3">Procesori</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/ryzen5_5600g.jpg" class="card-img-top" alt="AMD Ryzen 5 5600G">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">AMD Ryzen 5 5600G</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Brzina procesora:</span> 3.9GHz</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj jezgara:</span> 6</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj threadova:</span> 12</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> AM4</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 14.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/ryzen9_7900.jpg" class="card-img-top" alt="AMD Ryzen 9 7900">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">AMD Ryzen 9 7900</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Brzina procesora:</span> 3.7GHz</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj jezgara:</span> 12</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj threadova:</span> 24</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> AM5</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 58.500 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/i7_10700kf.jpg" class="card-img-top" alt="Intel Core i7-10700KF">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Intel Core i7-10700KF</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Brzina procesora:</span> 3.8GHz</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj jezgara:</span> 8</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj threadova:</span> 16</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> FCLGA1200</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 30.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/celeron_g5905.jpg" class="card-img-top" alt="Intel Celeron G5905">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Intel Celeron G5905</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Brzina procesora:</span> 3.5GHz</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj jezgara:</span> 2</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj threadova:</span> 2</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> FCLGA1200</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 4.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GRAFIČKE KARTICE -->
+    <div class="container">
+      <h2 class="fw-bold mt-3 mb-3">Grafičke kartice</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/index/proizvod2.jpg" class="card-img-top" alt="MSI nVidia GeForce RTX 4070 Ventus 3X">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">MSI GeForce RTX 4070</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 12GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> GGDR6X</p>
+              <p class="card-text mb-0"><span class="fw-bold">DisplayPort:</span> 3 portova</p>
+              <p class="card-text mb-0"><span class="fw-bold">HDMI:</span> 1 port</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 82.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/geforce_gt_710.jpg" class="card-img-top" alt="GIGABYTE nVidia GeForce GT 710">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">GIGABYTE GeForce GT 710</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 2GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> GGDR5</p>
+              <p class="card-text mb-0"><span class="fw-bold">DVI:</span> 1 port</p>
+              <p class="card-text mb-0"><span class="fw-bold">HDMI:</span> 1 port</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 5.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/rx_7700_xt.jpg" class="card-img-top" alt="Sapphire Nitro+ AMD Radeon RX 7700 XT">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Sapphire Radeon RX 7700 XT</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 12GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> GGDR6</p>
+              <p class="card-text mb-0"><span class="fw-bold">DisplayPort:</span> 2 portova</p>
+              <p class="card-text mb-0"><span class="fw-bold">HDMI:</span> 2 portova</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 72.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/rx_7900_xtx.jpg" class="card-img-top" alt="Sapphire Nitro+ AMD Radeon RX 7900 XTX Vapor-X">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Sapphire Radeon RX 7900 XTX</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 24GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> GGDR6</p>
+              <p class="card-text mb-0"><span class="fw-bold">DisplayPort:</span> 2 portova</p>
+              <p class="card-text mb-0"><span class="fw-bold">HDMI:</span> 2 portova</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 150.000 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MATIČNE PLOČE -->
+    <div class="container">
+      <h2 class="fw-bold mt-3 mb-3">Matične ploče</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/asus_tuf_b660m.jpg" class="card-img-top" alt="ASUS TUF Gaming B660M-Plus">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">ASUS GAMING B660M-Plus</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Format:</span> Micro ATX</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> LGA 1700</p>
+              <p class="card-text mb-0"><span class="fw-bold">Podržana memorija:</span> DDR4</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 20.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/asus_prime_h610i.jpg" class="card-img-top" alt="ASUS PRIME H610I-Plus D4">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">ASUS PRIME H610I-Plus</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Format:</span> Mini ATX</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> LGA 1700</p>
+              <p class="card-text mb-0"><span class="fw-bold">Podržana memorija:</span> DDR4</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 12.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/gigabyte_z790.jpg" class="card-img-top" alt="GIGABYTE Z790 Aorus Master">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">GIGABYTE Z790 Aorus Master</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Format:</span> ATX</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> LGA 1700</p>
+              <p class="card-text mb-0"><span class="fw-bold">Podržana memorija:</span> DDR5</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 79.000 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/msi_b550.jpg" class="card-img-top" alt="MSI B550-A PRO">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">MSI B550-A PRO</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Format:</span> ATX</p>
+              <p class="card-text mb-0"><span class="fw-bold">Socket:</span> AM4</p>
+              <p class="card-text mb-0"><span class="fw-bold">Podržana memorija:</span> DDR4</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 16.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MEMORIJSKI MODULI -->
+    <div class="container">
+      <h2 class="fw-bold mt-3 mb-3">Memorijski moduli</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/corsair_vengeance.jpg" class="card-img-top" alt="CORSAIR Vengeance">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">CORSAIR Vengeance</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 16 GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> DDR4</p>
+              <p class="card-text mb-0"><span class="fw-bold">Frekvencija:</span> 3200MHz</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 8.000 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/kingston_fury_beast.jpg" class="card-img-top" alt="Kingston Fury Beast">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Kingston Fury Beast</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 16 GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> DDR5</p>
+              <p class="card-text mb-0"><span class="fw-bold">Frekvencija:</span> 6000MHz</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 8.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/patriot_signature.jpg" class="card-img-top" alt="PATRIOT Signature">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">PATRIOT Signature</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 8 GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> DDR3</p>
+              <p class="card-text mb-0"><span class="fw-bold">Frekvencija:</span> 1600MHz</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 1.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/racunarske_komponente/adata_xpg_spectrix.jpg" class="card-img-top" alt="A-DATA XPG Spectrix D50">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">A-DATA XPG Spectrix D50</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Količina memorije:</span> 16 GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip memorije:</span> DDR4</p>
+              <p class="card-text mb-0"><span class="fw-bold">Frekvencija:</span> 3200MHz</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 4.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <div class="container-fluid p-0 m-0">
+    <footer>
+      <div class="container">
+        <section class="d-flex justify-content-between p-4 linija-plava">
+          <div class="me-5">
+            <span class="fw-bold fs-5">Zapratite nas na društvenim mrežama:</span>
+          </div>
+          <div>
+            <a href="https://www.facebook.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-x-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div class="container text-center text-md-start">
+          <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Tehnoprodaja</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p>Kao kompanija se ističemo po širokim asortimanom tehnoloških proizvoda, pružajući korisnicima kvalitet, stručnost i inovativnost u svetu računarske, gaming, audio-vizuelne i mobilne tehnologije.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Korisni linkovi</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p class="mb-2"><a href="o_nama.html"><i class="fa-solid fa-user"></i> O nama</a></p>
+              <p class="mb-2"><a href="faq.html"><i class="fa-regular fa-circle-question"></i> Česta pitanja</a></p>
+              <p class="mb-2"><a href="mapa.html"><i class="fa-solid fa-map"></i> Mapa sajta</a></p>
+              <p class="mb-2"><a href="docs/cenovnik.pdf" download><i class="fa-solid fa-clipboard-list"></i> Cenovnik</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3 fw-bold">
+        <span>&copy; Zaštićeno pod <a href="https://opensource.org/license/mit/" target="_blank">MIT Licensom</a>, 2024: <a href="index.html">Tehnoprodaja</a></span>
+        <p class="mb-0">Autor projekta: <a href="mailto:markorufic2@gmail.com">Marko Rufić</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <button type="button" class="btn btn-outline-primary btn-floating" id="btn-kagore"><i class="fa-solid fa-angles-up fa-2xl"></i></button>
+  <script src="custom-js/scrollSkrozGore.js"></script>
 </body>
 </html>
