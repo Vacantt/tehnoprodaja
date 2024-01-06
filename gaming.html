@@ -42,6 +42,225 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <!-- NAVIGACIJA -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-nav center nav-pozadina">
+      <div class="container justify-content-center">
+        <a class="navbar-brand" href="index.html"><img src="img/tehnoprodaja_logo.svg" alt="Tehnoprodaja"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+            <g fill="#256eff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"></path></g></g>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <span class="nav-link dropdown-toggle nav-tekst" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                <i class="fa-solid fa-ellipsis-v"></i> Sve kategorije
+              </span>
+              <ul class="dropdown-menu nav-pozadina">
+                <li><a class="dropdown-item nav-tekst" href="racunarske_komponente.html">Računarske komponente</a></li>
+                <li><a class="dropdown-item nav-tekst" href="oprema_za_racunare.html">Oprema za računare</a></li>
+                <li><a class="dropdown-item nav-tekst" href="gaming.html">Gaming</a></li>
+                <li><a class="dropdown-item nav-tekst" href="mobilni.html">Mobilni telefoni</a></li>
+                <li><a class="dropdown-item nav-tekst" href="audio_video.html">TV, audio i video</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst tekst-zuta" href="akcija.html">Akcija!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="o_nama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- GLAVNA SEKCIJA STRANE -->
+  <main>
+    <!-- NASLOV -->
+    <div class="container">
+      <h1 class="fw-bold text-center mt-3">Gaming oprema</h1>
+      <p class="text-center fs-5 okvir-plava-bela">Ova stranica obuhvata svu opremu za gaming koje možete naći u Tehnoprodaja prodavnici, uključujući konzole i igrice. Nudimo detaljne opise proizvoda koje pomažu kupcima da donesu informisane odluke pri kupovini gaming opreme.</p>
+    </div>
+
+    <!-- KONZOLE -->
+    <div class="container">
+      <h2 class="fw-bold mb-3">Konzole</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/index/proizvod3.jpg" class="card-img-top" alt="Microsoft Xbox Series X 1TB">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Microsoft Xbox Series X</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Memorija:</span> 1TB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj kontrolera:</span> 1 kontroler</p>
+              <p class="card-text mb-0"><span class="fw-bold">Boja konzole:</span> Crna</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 65.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/gaming/xbox_seriesx_512.jpg" class="card-img-top" alt="Microsoft Xbox Series X 512GB">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Microsoft Xbox Series X</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Memorija:</span> 512GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj kontrolera:</span> 1 kontroler</p>
+              <p class="card-text mb-0"><span class="fw-bold">Boja konzole:</span> Bela</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 38.500 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/gaming/switch.jpg" class="card-img-top" alt="Nintendo Switch">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Nintendo Switch</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Memorija:</span> 32GB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Broj kontrolera:</span> 2 kontrolera</p>
+              <p class="card-text mb-0"><span class="fw-bold">Boja konzole:</span> Crna</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 42.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/corsair_katar_pro.jpg" class="card-img-top" alt="Corsair KATAR PRO">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Corsair KATAR PRO</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip miša:</span> USB žični</p>
+              <p class="card-text mb-0"><span class="fw-bold">Rezolucija:</span> 12400 DPI</p>
+              <p class="card-text mb-0 fs-5">&nbsp;</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 2.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IGRICE -->
+    <div class="container">
+      <h2 class="fw-bold mb-3">Igrice</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/gaming/cod_mw2.jpg" class="card-img-top" alt="Call of Duty: Modern Warfare II">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Call of Duty: Modern Warfare II</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Konzola:</span> PlayStation 5</p>
+              <p class="card-text mb-0"><span class="fw-bold">Žanr:</span> Pucačina iz prvog lica</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 8.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/gaming/goat_simulator3.jpg" class="card-img-top" alt="Goat Simulator 3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Goat Simulator 3</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Konzola:</span> XBOX Series X</p>
+              <p class="card-text mb-0"><span class="fw-bold">Žanr:</span> Avantura</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 7.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/gaming/dying_light_de.jpg" class="card-img-top" alt="Dying Light: Definitive Edition">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Dying Light: Definitive Edition</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Konzola:</span> Nintendo Switch</p>
+              <p class="card-text mb-0"><span class="fw-bold">Žanr:</span> Akciona</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 5.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/gaming/god_of_war.jpg" class="card-img-top" alt="God of War Ragnarök">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">God of War Ragnarök</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Konzola:</span> PlayStation 5</p>
+              <p class="card-text mb-0"><span class="fw-bold">Žanr:</span> Akciona</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 8.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <div class="container-fluid p-0 m-0">
+    <footer>
+      <div class="container">
+        <section class="d-flex justify-content-between p-4 linija-plava">
+          <div class="me-5">
+            <span class="fw-bold fs-5">Zapratite nas na društvenim mrežama:</span>
+          </div>
+          <div>
+            <a href="https://www.facebook.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-x-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div class="container text-center text-md-start">
+          <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Tehnoprodaja</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p>Kao kompanija se ističemo po širokim asortimanom tehnoloških proizvoda, pružajući korisnicima kvalitet, stručnost i inovativnost u svetu računarske, gaming, audio-vizuelne i mobilne tehnologije.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Korisni linkovi</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p class="mb-2"><a href="o_nama.html"><i class="fa-solid fa-user"></i> O nama</a></p>
+              <p class="mb-2"><a href="faq.html"><i class="fa-regular fa-circle-question"></i> Česta pitanja</a></p>
+              <p class="mb-2"><a href="mapa.html"><i class="fa-solid fa-map"></i> Mapa sajta</a></p>
+              <p class="mb-2"><a href="docs/cenovnik.pdf" download><i class="fa-solid fa-clipboard-list"></i> Cenovnik</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3 fw-bold">
+        <span>&copy; Zaštićeno pod <a href="https://opensource.org/license/mit/" target="_blank">MIT Licensom</a>, 2024: <a href="index.html">Tehnoprodaja</a></span>
+        <p class="mb-0">Autor projekta: <a href="mailto:markorufic2@gmail.com">Marko Rufić</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <button type="button" class="btn btn-outline-primary btn-floating" id="btn-kagore"><i class="fa-solid fa-angles-up fa-2xl"></i></button>
+  <script src="custom-js/scrollSkrozGore.js"></script>
 </body>
 </html>
