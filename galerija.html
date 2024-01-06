@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Marko Rufić, markorufic2@gmail.com">
+  <meta name="description" content="Tehnoprodaja – Galerija slika">
+  <meta name="keywords" content="Tehnologija, računari, komponente, gaming, mobilni telefoni, audio, video">
+  <meta name="copyright" content="Tehnoprodaja">
+  <meta name="language" content="sr">
+  <meta name="url" content="">
+  <meta name="pagename" content="Tehnoprodaja &middot; Galerija">
+  <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="normal">
+  <!-- OPEN GRAPH PROTOCOL -->
+  <!-- 
+    *************************************
+    DODATI OG:URL
+    DODATI META:URL
+    *************************************
+  -->
+  <meta property="og:title" content="Tehnoprodaja &middot; Galerija">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="img/tehnoprodaja_ogimage.png">
+  <meta property="og:description" content="Tehnoprodaja – Galerija slika">
+  <meta property="og:locale" content="sr">
+  <meta property="og:site_name" content="Tehnoprodaja">
+  <title>Tehnoprodaja &middot; Galerija</title>
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="custom-css/style.css">
+  <link rel="stylesheet" href="bootstrap-css/bootstrap.css">
+  <link rel="stylesheet" href="custom-css/lightbox.css">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVIGACIJA -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-nav center nav-pozadina">
+      <div class="container justify-content-center">
+        <a class="navbar-brand" href="index.html"><img src="img/tehnoprodaja_logo.svg" alt="Tehnoprodaja"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+            <g fill="#256eff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"></path></g></g>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <span class="nav-link dropdown-toggle nav-tekst" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                <i class="fa-solid fa-ellipsis-v"></i> Sve kategorije
+              </span>
+              <ul class="dropdown-menu nav-pozadina">
+                <li><a class="dropdown-item nav-tekst" href="racunarske_komponente.html">Računarske komponente</a></li>
+                <li><a class="dropdown-item nav-tekst" href="oprema_za_racunare.html">Oprema za računare</a></li>
+                <li><a class="dropdown-item nav-tekst" href="gaming.html">Gaming</a></li>
+                <li><a class="dropdown-item nav-tekst" href="mobilni.html">Mobilni telefoni</a></li>
+                <li><a class="dropdown-item nav-tekst" href="audio_video.html">TV, audio i video</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst tekst-zuta" href="akcija.html">Akcija!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="o_nama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- GLAVNA SEKCIJA STRANE -->
+  <main>
+    <!-- NASLOV -->
+    <div class="container">
+      <h1 class="fw-bold text-center mt-3">Galerija slika</h1>
+    </div>
+    <!-- GALERIJA SLIKA -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="img/index/prodavnica.jpg" data-lightbox="galerija" data-title="Kutak sa računarskim komponentama" class="h-100">
+            <figure class="figure">
+              <img src="img/index/prodavnica.jpg" class="figure-img img-fluid rounded-4 okvir-plava img-fluid" alt="Kutak prodavnice sa računarskim komponentama">
+              <figcaption class="figure-caption fs-6">Kutak sa računarskim komponentama</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/galerija/prodavnica_samsung.jpg" data-lightbox="galerija" data-title="Kutak sa televizorima">
+            <figure class="figure">
+                <img src="img/galerija/prodavnica_samsung.jpg" class="figure-img img-fluid rounded-4 okvir-plava" alt="Kutak prodavnice sa televizorima">
+              <figcaption class="figure-caption fs-6">Kutak sa televizorima</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/galerija/audio.jpg" data-lightbox="galerija" data-title="Kutak sa audio uređajima">
+            <figure class="figure">
+                <img src="img/galerija/audio.jpg" class="figure-img img-fluid rounded-4 okvir-plava" alt="Kutak prodavnice sa audio uređajima">
+              <figcaption class="figure-caption fs-6">Kutak sa audio uređajima</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/galerija/mobilni.jpg" data-lightbox="galerija" data-title="Kutak sa mobilnim telefonima">
+            <figure class="figure">
+                <img src="img/galerija/mobilni.jpg" class="figure-img img-fluid rounded-4 okvir-plava" alt="Kutak prodavnice sa mobilnim telefonima">
+              <figcaption class="figure-caption fs-6">Kutak sa mobilnim telefonima</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/galerija/gaming.jpg" data-lightbox="galerija" data-title="Kutak a gaming opremom">
+            <figure class="figure">
+                <img src="img/galerija/gaming.jpg" class="figure-img img-fluid rounded-4 okvir-plava" alt="Kutak prodavnice sa gaming opremom">
+              <figcaption class="figure-caption fs-6">Kutak sa gaming opremom</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="img/o_nama/radnici.jpg" data-lightbox="galerija" data-title="Naši radnici sa kupcima u Tehnoprodaja prodavnici">
+            <figure class="figure">
+                <img src="img/o_nama/radnici.jpg" class="figure-img img-fluid rounded-4 okvir-plava" alt="Radnici u Tehnoprodaji">
+              <figcaption class="figure-caption fs-6">Naši radnici sa kupcima u Tehnoprodaja prodavnici</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <div class="container-fluid p-0 m-0">
+    <footer>
+      <div class="container">
+        <section class="d-flex justify-content-between p-4 linija-plava">
+          <div class="me-5">
+            <span class="fw-bold fs-5">Zapratite nas na društvenim mrežama:</span>
+          </div>
+          <div>
+            <a href="https://www.facebook.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-x-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div class="container text-center text-md-start">
+          <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Tehnoprodaja</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p>Kao kompanija se ističemo po širokim asortimanom tehnoloških proizvoda, pružajući korisnicima kvalitet, stručnost i inovativnost u svetu računarske, gaming, audio-vizuelne i mobilne tehnologije.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Korisni linkovi</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p class="mb-2"><a href="o_nama.html"><i class="fa-solid fa-user"></i> O nama</a></p>
+              <p class="mb-2"><a href="faq.html"><i class="fa-regular fa-circle-question"></i> Česta pitanja</a></p>
+              <p class="mb-2"><a href="mapa.html"><i class="fa-solid fa-map"></i> Mapa sajta</a></p>
+              <p class="mb-2"><a href="docs/cenovnik.pdf" download><i class="fa-solid fa-clipboard-list"></i> Cenovnik</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3 fw-bold">
+        <span>&copy; Zaštićeno pod <a href="https://opensource.org/license/mit/" target="_blank">MIT Licensom</a>, 2024: <a href="index.html">Tehnoprodaja</a></span>
+        <p class="mb-0">Autor projekta: <a href="mailto:markorufic2@gmail.com">Marko Rufić</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <button type="button" class="btn btn-outline-primary btn-floating" id="btn-kagore"><i class="fa-solid fa-angles-up fa-2xl"></i></button>
+  <script src="custom-js/scrollSkrozGore.js"></script>
+  <script src="custom-js/lightbox-plus-jquery.js"></script>
+  <script>
+    lightbox.option({
+      'alwaysShowNavOnTouchDevices': true,
+      'albumLabel': "Slika %1 od %2",
+      'disableScrolling': true
+    })
+  </script>
+</body>
+</html>
