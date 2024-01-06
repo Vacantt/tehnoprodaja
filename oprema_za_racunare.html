@@ -42,6 +42,284 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <!-- NAVIGACIJA -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-nav center nav-pozadina">
+      <div class="container justify-content-center">
+        <a class="navbar-brand" href="index.html"><img src="img/tehnoprodaja_logo.svg" alt="Tehnoprodaja"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+            <g fill="#256eff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M0,7.5v5h50v-5zM0,22.5v5h50v-5zM0,37.5v5h50v-5z"></path></g></g>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <span class="nav-link dropdown-toggle nav-tekst" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                <i class="fa-solid fa-ellipsis-v"></i> Sve kategorije
+              </span>
+              <ul class="dropdown-menu nav-pozadina">
+                <li><a class="dropdown-item nav-tekst" href="racunarske_komponente.html">Računarske komponente</a></li>
+                <li><a class="dropdown-item nav-tekst" href="oprema_za_racunare.html">Oprema za računare</a></li>
+                <li><a class="dropdown-item nav-tekst" href="gaming.html">Gaming</a></li>
+                <li><a class="dropdown-item nav-tekst" href="mobilni.html">Mobilni telefoni</a></li>
+                <li><a class="dropdown-item nav-tekst" href="audio_video.html">TV, audio i video</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst tekst-zuta" href="akcija.html">Akcija!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="o_nama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-tekst" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- GLAVNA SEKCIJA STRANE -->
+  <main>
+    <!-- NASLOV -->
+    <div class="container">
+      <h1 class="fw-bold text-center mt-3">Oprema za računare</h1>
+      <p class="text-center fs-5 okvir-plava-bela">Ova stranica obuhvata svu opremu za računare koje možete naći u Tehnoprodaja prodavnici, uključujući miševe, tastature i slušalice. Nudimo detaljne opise proizvoda koje pomažu kupcima da donesu informisane odluke pri kupovini računarskih delova.</p>
+    </div>
+
+    <!-- MIŠEVI -->
+    <div class="container">
+      <h2 class="fw-bold mb-3">Miševi</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/index/proizvod1.jpg" class="card-img-top" alt="Logitech G305">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Logitech G305</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip miša:</span> Bežični</p>
+              <p class="card-text mb-0"><span class="fw-bold">Rezolucija:</span> 12000 DPI</p>
+              <p class="card-text mb-0"><span class="fw-bold">Trajanje baterije:</span> do 250 sati</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 6.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/logitech_g502.jpg" class="card-img-top" alt="Logitech G502 X Plus">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Logitech G502 X Plus</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip miša:</span> Bežični</p>
+              <p class="card-text mb-0"><span class="fw-bold">Rezolucija:</span> 25600 DPI</p>
+              <p class="card-text mb-0"><span class="fw-bold">Trajanje baterije:</span> do 120 sati</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 17.500 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/asus_rog_gladius.jpg" class="card-img-top" alt="ASUS ROG Gladius III">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">ASUS ROG Gladius III</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip miša:</span> USB žični</p>
+              <p class="card-text mb-0"><span class="fw-bold">Rezolucija:</span> 19000 DPI</p>
+              <p class="card-text mb-0 fs-5">&nbsp;</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 6.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/corsair_katar_pro.jpg" class="card-img-top" alt="Corsair KATAR PRO">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Corsair KATAR PRO</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip miša:</span> USB žični</p>
+              <p class="card-text mb-0"><span class="fw-bold">Rezolucija:</span> 12400 DPI</p>
+              <p class="card-text mb-0 fs-5">&nbsp;</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 2.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TASTATURE -->
+    <div class="container">
+      <h2 class="fw-bold mb-3">Tastature</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/apple_magic.jpg" class="card-img-top" alt="Apple Magic">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Apple Magic</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastature:</span> Bežična</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> Bluetooth</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastera:</span> Membranski</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 18.000 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/corsair_k60.jpg" class="card-img-top" alt="Corsair K60 RGB PRO">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Corsair K60 RGB PRO</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastature:</span> Žična</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> USB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastera:</span> Mehanički</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 17.500 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/genius_slimstar.jpg" class="card-img-top" alt="GENIUS SlimStar M200">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">GENIUS SlimStar M200</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastature:</span> Žična</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> USB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastera:</span> Membranski</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 1.100 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/razer_huntsman_v2.jpg" class="card-img-top" alt="Razer Huntsman V2 Tenkeyless Linear">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Razer Huntsman V2</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastature:</span> Žična</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> USB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Tip tastera:</span> Mehanički</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 20.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLUŠALICE -->
+    <div class="container">
+      <h2 class="fw-bold mb-3">Slušalice</h2>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/genesis_neon350.jpg" class="card-img-top" alt="GENESIS Neon 350">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">GENESIS Neon 350</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> 3.5mm, USB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Mikrofon:</span> Da</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 3.800 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/hyperx_cloud_stinger2.jpg" class="card-img-top" alt="HyperX Cloud Stinger 2">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">HyperX Cloud Stinger 2</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> 3.5mm, USB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Mikrofon:</span> Da</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 11.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/logitech_lightspeed.jpg" class="card-img-top" alt="Logitech Lightspeed PRO X">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Logitech Lightspeed PRO X</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> Bežično, USB prijemnik</p>
+              <p class="card-text mb-0"><span class="fw-bold">Mikrofon:</span> Da</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 27.000 RSD</p>
+              <p class="card-text fs-5 text-danger text-end"><i class="fa-solid fa-square-xmark text-danger"></i> Nije dostupno</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card h-100">
+            <img src="img/oprema_za_racunare/razer_kraken_kitty.jpg" class="card-img-top" alt="Razer Kraken Kitty Quartz">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Razer Kraken Kitty Quartz</h5>
+              <p class="card-text mb-0"><span class="fw-bold">Tip povezivanja:</span> USB</p>
+              <p class="card-text mb-0"><span class="fw-bold">Mikrofon:</span> Da</p>
+              <p class="card-text mb-0 fs-5"><span class="fw-bold">Cena:</span> 25.000 RSD</p>
+              <p class="card-text fs-5 text-success text-end"><i class="fa-solid fa-square-check text-success"></i> Dostupno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <div class="container-fluid p-0 m-0">
+    <footer>
+      <div class="container">
+        <section class="d-flex justify-content-between p-4 linija-plava">
+          <div class="me-5">
+            <span class="fw-bold fs-5">Zapratite nas na društvenim mrežama:</span>
+          </div>
+          <div>
+            <a href="https://www.facebook.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-x-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="me-4">
+              <i class="fa-brands fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div class="container text-center text-md-start">
+          <div class="row">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Tehnoprodaja</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p>Kao kompanija se ističemo po širokim asortimanom tehnoloških proizvoda, pružajući korisnicima kvalitet, stručnost i inovativnost u svetu računarske, gaming, audio-vizuelne i mobilne tehnologije.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="fw-bold text-uppercase">Korisni linkovi</h6>
+              <hr class="mt-0 d-inline-block mx-auto hr-custom">
+              <p class="mb-2"><a href="o_nama.html"><i class="fa-solid fa-user"></i> O nama</a></p>
+              <p class="mb-2"><a href="faq.html"><i class="fa-regular fa-circle-question"></i> Česta pitanja</a></p>
+              <p class="mb-2"><a href="mapa.html"><i class="fa-solid fa-map"></i> Mapa sajta</a></p>
+              <p class="mb-2"><a href="docs/cenovnik.pdf" download><i class="fa-solid fa-clipboard-list"></i> Cenovnik</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-3 fw-bold">
+        <span>&copy; Zaštićeno pod <a href="https://opensource.org/license/mit/" target="_blank">MIT Licensom</a>, 2024: <a href="index.html">Tehnoprodaja</a></span>
+        <p class="mb-0">Autor projekta: <a href="mailto:markorufic2@gmail.com">Marko Rufić</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <button type="button" class="btn btn-outline-primary btn-floating" id="btn-kagore"><i class="fa-solid fa-angles-up fa-2xl"></i></button>
+  <script src="custom-js/scrollSkrozGore.js"></script>
 </body>
 </html>
