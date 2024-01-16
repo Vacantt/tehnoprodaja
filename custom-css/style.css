@@ -139,4 +139,8 @@ a:hover, i:hover, span[class~="nav-tekst"]:hover, button:hover, li span:hover {
   .card {
     border: 0 !important;
   }
+
+  .collapse:not(.show) {
+    display: block !important;
+  }
 }
